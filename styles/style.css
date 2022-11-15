@@ -326,7 +326,7 @@
 }
 
 .footer__author {
-  margin-bottom: 18px;
+  margin: 18px 0;
   font-size: 18px;
   line-height: 25px;
 }
@@ -338,6 +338,10 @@
   font-weight: 600;
 }
 
+.footer__column-links {
+	margin-bottom: 16px;
+}
+
 .footer__column-link {
   display: block;
   text-decoration: none;
@@ -345,7 +349,6 @@
   font-size: 18px;
   line-height: 30px;
   font-weight: normal;
-  margin-bottom: 16px;
 }
 
 .footer__social-icon {
