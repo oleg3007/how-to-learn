@@ -5,21 +5,20 @@
 	<meta charset="UTF-8">
  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Научиться учиться</title>
-	<link rel="stylesheet" href="styles/index.css">
-	<link rel="stylesheet" href="styles/normalize.css">
+	<link rel="stylesheet" href="pages/index.css">
+	<link rel="stylesheet" href="vendor/normalize.css">
 </head>
 
-<body>
-	<div class="page">
-		<header class="header">
+<body class="page">
+	<header class="header">
 			<img class="logo logo_place_header" src="images/logo_place_header.svg" alt="Яндекс Практикум">
 			<h1 class="header__title">Научиться учиться</h1>
 			<p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей
 				жизни? <a class="header__link link-transition" target="_blank" href="#"> Узнать &rarr;</a></p>
 			<img class="header__main-illustration" src="images/header-image.png" alt="Картина 'Опять двойка'">
 			<div class="header__square-pic rotation"></div>
-		</header>
-		<main class="content">
+	</header>
+	<main class="content">
 			<section class="description">
 				<div class="two-columns">
 					<h2 class="two-columns__brief">Главные проблемы в обучении</h2>
@@ -74,12 +73,8 @@
 				<h2 class="section-title">Видео нa TED</h2>
 				<h3 class="section-subtitle">Для тех, кто любит прокрастинировать</h3>
 				<div class="video__iframes">
-					<div class="video__iframe">
-						<iframe id="ytplayer1" width="516" height="316" src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen></iframe>
-					</div>
-					<div class="video__iframe">
-						<iframe id="ytplayer2" width="516" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen></iframe>
-					</div>
+					<iframe id="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen></iframe>
+					<iframe id="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen></iframe>
 				</div>
 			</section>
 			<section class="oakley">
@@ -143,13 +138,13 @@
 			</section>
 			<section class="khan">
 				<div class="khan__container">
-					<h3 class="khan__author">Салман Хан</h3>
+					<p class="khan__author">Салман Хан</p>
 					<h2 class="khan__title">Весь мир — школа</h2>
 					<p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа»
 					нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые
 					приносят успех в школе, карьере и жизни.</p>
-					<h4 class="khan__quote-author">Джордж Лукас</h4>
-					<h4 class="khan__quote-author-subline">Кинорежиссер, продюсер</h4>
+					<h2 class="khan__quote-author">Джордж Лукас</h2>
+					<p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
 					<div class="khan__book-container">
 						<img class="khan__book-pic" src="images/khan-book.jpg" alt="Обложка книжки Салман Хана 'Весь Мир школа'">
 						<a href="#" target="_blank" class="khan__buy-link link-transition">Купить книгу &rarr;</a>
@@ -207,15 +202,15 @@
 			<section class="resources">
 				<h2 class="section-title">Полезные ресурсы</h2>
 				<h3 class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</h3>
-				<nav class="resources__logo-zone">
+				<div class="resources__logo-zone">
 					<a href="#" target="_blank" class="resources__link link-transition"><img class="resources__logo" src="images/logo/resources-arzamas.svg" alt="Логотип ARZAMAS"></a>
 					<a href="#" target="_blank" class="resources__link link-transition"><img src="images/logo/resources-n1.svg" alt="Логотип N+1"></a>
 					<a href="#" target="_blank" class="resources__link link-transition"><img src="images/logo/resources-strelka.svg" alt="Логотип STRELKA"></a>
 					<a href="#" target="_blank" class="resources__link link-transition"><img src="images/logo/resources-polka.svg" alt="Логотип ПОЛКА"></a>
-				</nav>
+				</div>
 			</section>
-		</main>
-		<footer class="footer">
+	</main>
+	<footer class="footer">
 			<div class="footer__columns">
 				<div class="footer__column footer__column_content_copyright">
 					<img class="logo logo_place_footer" src="images/logo_place_footer.svg" alt="Яндекс Практикум">
@@ -244,8 +239,7 @@
 					</nav>
 				</div>
 			</div>
-		</footer>
-	</div>
+	</footer>
 </body>
 
 </html>
